@@ -1,8 +1,25 @@
 var listNumbers = function(input){
   var numbers = []
-  for (var i = 1; i <= input; i = i +1){
+  for (var i = 1; i <= input; i++){
     numbers.push(i)
   }
 
 return numbers
 }
+
+var replaceNumbers = function(input) {
+  var numArray = listNumbers(input);
+  var text = "";
+  for (var i = 1; i <= numArray.length; i++){
+    if (i % 15 === 0) {
+      text += "<li>PingPong</li>";
+    } else if (i % 5 === 0) {
+            text += "<li>Pong</li>"
+    } else if (i % 3 === 0) {
+            text += "<li>Ping</li>"
+    } else {
+            text += "<li>" + i + "</li>"
+        }
+    }
+    return text
+  };
