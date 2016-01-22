@@ -1,12 +1,12 @@
-# _Pig Latin Translator_
+# _Ping Pong_
 
-#### _Pig Latin Translator, January, 2016_
+#### _Ping Pong Code Review Created, January,22 2016_
 
-#### By _**Jared Beckler & Aaron Gershenzon**_
+#### By _** Aaron Gershenzon**_
 
 ## Description
 
-_This webpage was designed to take user inputs into a form, use BDD JavaScript to process, show, and hide results. It was designed using HTML, CSS, Bootstrap, JavaScript, and jQuery._
+_This webpage was designed to take and numerical input and display results 1 through the numerical input. The exception is for every multiple of 3 the return is "ping" for every multiple of 5 the return is "pong" and for every multiple of "15" the return is "Pingpong". This project was  designed using HTML, CSS, BBD, JavaScript, and jQuery, Moch.js, Chai.js._
 
 ## Setup/Installation Requirements
 
@@ -21,7 +21,9 @@ _No bugs are currently known._
 * _jQuery_
 * _JavaScript_
 * _Bootstrap_
+* _Mocha.js_
+* _Chai.js_
 
 ### License
 
-MIT License. Copyright (c) 2016 **_Jared Beckler & Aaron Gershenzon_**
+MIT License. Copyright (c) 2016 **_ Aaron Gershenzon_**
