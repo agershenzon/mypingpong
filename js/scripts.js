@@ -25,11 +25,11 @@ var replaceNumbers = function(input) {
 
   $(document).ready(function() {
       $("#submit").click(function() {
-          var entry = $("#input").val()
+          var entry = $("#input").val();
           var final = replaceNumbers(entry);
-          $("#hide").show()
-          $("li").text("")
-          $("li").append(final)
+          $("#hide").show();
+          $("li").text("");
+          $("li").append(final);
       });
 
-  })
+  });
