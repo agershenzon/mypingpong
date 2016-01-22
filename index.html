@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Pig Latin Translator</title>
   </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron img-responsive">
-        <h1>Pig Latin Translator</h1>
 
-        <form id="translator">
-          <div class="form-group">
-            <label for="string">Enter a word/sentence and have it translate to pig latin:</label>
-            <input id="string" type="text">
-          </div>
-          <button type="submit" class="btn btn-danger">Translate!</button>
-        </form>
-        <p id="result"></p>
-      </div>
+  <body>
+    <div class = "container">
+      <h1>Ping-Pong</h1>
+      <h2>Let's Play</h2>
+      <h3>Rules</h3>
+        <p>Ping pong will count up to your number from 1 with the following expections</p>
+          <ol>
+            <li>Numbers divisible by 3 become 'ping'</li>
+            <li>Numbers divisible by 5 become 'pong'</li>
+            <li>Numbers divisible by 15 become 'pingpong'</li>
+          </ol>
+      <h3> Enter your number here:
+        <input id="input" placeholder="Enter your number here"></input></h3>
+      <button class= "btn btn-primary" id="submit">Ping Pong</button>
     </div>
+    <ul id = "output">
+      <li id = "hide">hello</li>
+    </ul>
   </body>
+
 </html>

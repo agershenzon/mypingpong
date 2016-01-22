@@ -3,8 +3,7 @@ var listNumbers = function(input){
   for (var i = 1; i <= input; i++){
     numbers.push(i)
   }
-
-return numbers
+  return numbers
 }
 
 var replaceNumbers = function(input) {
@@ -23,3 +22,14 @@ var replaceNumbers = function(input) {
     }
     return text
   };
+
+  $(document).ready(function() {
+      $("#submit").click(function() {
+          var entry = $("#input").val()
+          var final = replaceNumbers(entry);
+          $("#hide").show()
+          $("li").text("")
+          $("li").append(final)
+      });
+
+  })
